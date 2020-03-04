@@ -1,9 +1,13 @@
-#Regular Expressions
-##Formulation of lessons
+Regular Expressions
+
+Formulation of lessons
+
 The formulation of some of the questions can be improved. This could be our contribution to improving the LC lessons.
 
-###Examples for improvement of formulation
+Examples for improvement of formulation
+
 Erik's example: How would you match the date format dd-MM-yyyy or dd-MM-yy at the end of a line only?
+
 The formulation indicates that we have to find dates that end with four digits in the year or 2 digits. However the suggested
 solution also findes years with 3 digits, which is useful if you want to find mistakes in the data but does not answer the question.
 The solution is this: \d{2}-\d{2}-\d{2,4}$
