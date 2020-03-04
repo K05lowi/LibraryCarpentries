@@ -14,9 +14,9 @@ The solution is this: \d{2}-\d{2}-\d{2,4}$
 Erik's solution uses the "OR" expression: \d{2}-\d{2}-\d{2}$|\d{2}-\d{2}-\d{4}$
 
 
+Aditional exercises in the RegEx lesson
 
-###Aditional exercises in the RegEx lesson
-*1 To the lesson "extracting a substring in Google Sheets using regex, a nice addition would be guidance how to move an entire 
+1. To the lesson "extracting a substring in Google Sheets using regex, a nice addition would be guidance how to move an entire 
 column of information instead of just one cell at a time. Thanks to Ene, we have the following expression
 
 =ArrayFormula (if(len(G2:G),REGEXEXTRACT(G2:G,"\d+\.\d+, -?\d+\.\d+")
@@ -24,4 +24,4 @@ column of information instead of just one cell at a time. Thanks to Ene, we have
 It is necessary to use an "if len" to set parameters \(tell the computer where to put the data).
 Make sure the parenthesis encaspulate the expression correctly
 
-*2 A general exercise in looking for patterns in a string, that man later can use in the expressions.
+2. A general exercise in looking for patterns in a string, that man later can use in the expressions.
