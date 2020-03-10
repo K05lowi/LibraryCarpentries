@@ -1,4 +1,4 @@
-To DO
+TO DO
 
 cheat sheet where to find symbols on Mac - copypaste pipe fx doesn't work on the commandline in Macbook pro. 
 
@@ -9,7 +9,7 @@ Macbook pro:
 Think about how to use Shell in our library work and how to teach this practicality to our students. The
 LC lessons are good for getting to understand the logic and concepts, but we need use cases. 
 
-##Improvements
+IMPROVEMENTS
 
 Set-up clarifications?
 
@@ -31,4 +31,6 @@ We cover alot of ground in the introductory exercises (variables, values, loops)
 
 Perhaps more introduction to what is a variable and what is a value, what can they be used for, how are they remembered
 in the system? Just in the current session or also the next time we open Shell.
+
+
 
