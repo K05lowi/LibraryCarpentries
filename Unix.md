@@ -17,6 +17,11 @@ more examples - use cases
 
 example using Nano/text editor
 
+Correct mistake in exercise "working with free text" tr -d [:punct:] < 201403160_01_text.json > 201403160_01_text-nopunct.json
+
+The correct file name is 000003160_01_text.json
+
+
 GitBash runs fine - no need for warnings that it might not work. Just run GitBash 
 
 In the "instructionals" download file can be better formulated with regards to setup instructions.
