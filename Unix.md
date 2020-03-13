@@ -21,6 +21,7 @@ Correct mistake in exercise "working with free text" tr -d [:punct:] < 201403160
 
 The correct file name is 000003160_01_text.json
 
+Correct the following script: $ tr ' ' '\n' < 201403160_01_text-clean.txt | sort | uniq -c | sort -nr > 201403160_01_text-final.txt  replace the sort -nr with sort -r
 
 GitBash runs fine - no need for warnings that it might not work. Just run GitBash 
 
