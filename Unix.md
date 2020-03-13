@@ -21,8 +21,6 @@ Correct mistake in exercise "working with free text" tr -d [:punct:] < 201403160
 
 The correct file name is 000003160_01_text.json
 
-Correct mistake in working with free text "a webpage" sed '1,221d' diary-nofoot.txt > diary-noheadfoot.txt should be diary.html
-
 
 GitBash runs fine - no need for warnings that it might not work. Just run GitBash 
 
