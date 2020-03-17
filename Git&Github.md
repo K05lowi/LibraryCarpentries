@@ -60,4 +60,20 @@ git add to add the modified file(s) to staging area
 git commit to take a snap shot of the changes
 git push to send the snapshot to the online repos for review 
 
+# Quick review of process
+
+Når jeg forker projektet er det på webben.
+
+Når jeg efterfølgende kloner det til min lokale maskine, sker det i terminalen.
+
+Redigering, add, commit og push sker også på terminalen.
+
+Dernæst er der pull-requestet. Det sker på web.
+
+Og når jeg reviewer og merger, sker det også på webben.
+
+#Additions to LC lesson
+
+Workflow for review and merging (and tidying up) in Github
+
 
