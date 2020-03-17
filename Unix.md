@@ -2,6 +2,7 @@
 
 
 **Macbook pro:**
+
 option + shift + 7 = /
 
 option + shift + 8 = {
