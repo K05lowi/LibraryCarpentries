@@ -1,10 +1,10 @@
-Regular Expressions
+# Regular Expressions
 
-Formulation of lessons
+## Formulation of lessons
 
 The formulation of some of the questions can be improved. This could be our contribution to improving the LC lessons.
 
-Examples for improvement of formulation
+**Examples for improvement of formulation**
 
 Erik's example: How would you match the date format dd-MM-yyyy or dd-MM-yy at the end of a line only?
 
@@ -14,7 +14,7 @@ The solution is this: \d{2}-\d{2}-\d{2,4}$
 Erik's solution uses the "OR" expression: \d{2}-\d{2}-\d{2}$|\d{2}-\d{2}-\d{4}$
 
 
-Aditional exercises in the RegEx lesson
+## Aditional exercises in the RegEx lesson
 
 1. To the lesson "extracting a substring in Google Sheets using regex, a nice addition would be guidance how to move an entire 
 column of information instead of just one cell at a time. Thanks to Ene, we have the following expression
