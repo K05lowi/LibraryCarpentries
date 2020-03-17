@@ -1,27 +1,52 @@
-TO DO
+# TO DO
 
 cheat sheet where to find symbols on Mac - copypaste pipe fx doesn't work on the commandline in Macbook pro. 
 
 On a mac keyboard use backslash + shift + return
 
-Macbook pro:
+**Macbook pro:**
+option + shift + 7 = /
 
-Think about how to use Shell in our library work and how to teach this practicality to our students. The
-LC lessons are good for getting to understand the logic and concepts, but we need use cases. 
+option + shift + 8 = {
 
-IMPROVEMENTS
+option + shift + 9 = }
+
+option + shift + . = divide sign
+
+control + f = logout
+
+option + ¨ = ~
+
+option + 9 = ]
+
+option + 8 = [
+
+option + 4 = £
+
+option + y = \
+
+option + i = |
+
+
+
+## IMPROVEMENTS
 
 Set-up clarifications?
 
-more examples - use cases
+more examples - use cases. Think about how to use Shell in our library work and how to teach this practicality to our students. The
+LC lessons are good for getting to understand the logic and concepts, but we need use cases. 
 
 example using Nano/text editor
+
+## CORRECTIONS
 
 Correct mistake in exercise "working with free text" tr -d [:punct:] < 201403160_01_text.json > 201403160_01_text-nopunct.json
 
 The correct file name is 000003160_01_text.json
 
 Correct the following script: $ tr ' ' '\n' < 201403160_01_text-clean.txt | sort | uniq -c | sort -nr > 201403160_01_text-final.txt  replace the sort -nr with sort -r
+
+## COMMENTS
 
 GitBash runs fine - no need for warnings that it might not work. Just run GitBash 
 
