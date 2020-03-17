@@ -1,8 +1,5 @@
-# TO DO
+# NOTES ON UNIX LESSON
 
-cheat sheet where to find symbols on Mac - copypaste pipe fx doesn't work on the commandline in Macbook pro. 
-
-On a mac keyboard use backslash + shift + return
 
 **Macbook pro:**
 option + shift + 7 = /
@@ -25,7 +22,7 @@ option + 4 = £
 
 option + y = \
 
-option + i = |
+option + i = | Note: copypaste pipe from fx wikepedia fx doesn't work on the commandline in Macbook pro
 
 
 
