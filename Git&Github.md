@@ -46,7 +46,7 @@ online repos
 **Push** - git push takes all locally commited changes and uploads them to
 remote repos branch
 
-##Process
+## Process
 Clone the repository from Github to git
 Navigate to the directory in GitBash
 Make a working branch (git branch branch_name)
