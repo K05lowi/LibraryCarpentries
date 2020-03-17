@@ -11,7 +11,7 @@ Og så skriver jeg git push.
 
 Herefter ligger ændringerne i min lokale fork.
 
-Så laver jeg en push-request på den. 
+Så laver jeg en pull-request på den. 
 
 Hvorefter nogen (Det var vist mig, men burde nok have været Lorna) 
 merger mine ændringsforslag ind i stammen af dokumentet.
