@@ -7,7 +7,7 @@
 a copy on our computer**
 
 
-**Objectives**
+### Objectives
 
 Using cURL in Git
 
@@ -17,7 +17,7 @@ Refreshing how to make a directory, save and rename a file in Git
 
 
 
-**What is cURL**
+### What is cURL
 
 cURL transfers data from one server to another, is used to test APIs and download files
 
@@ -25,7 +25,7 @@ In Git, write curl --help to see all the options there are with cURL.
 
 
 
-**Finding data**
+### Finding data
 
 Go to Datahub.io. This is a collection of open datasets, primarily in csv and json formats. Scroll
 
@@ -45,7 +45,7 @@ Share url to the clipboard. https://datahub.io/core/registry/r/0.html
 
 
 
-**Back in Git**
+### Back in Git
 
 Make sure you are in the directory you want to store the downloaded data in.
 
@@ -57,7 +57,7 @@ Remember: to navigate the file structure use the commands pwd, cd, /c/, /p/
 
 
 
-**Previewing the data**
+### Previewing the data
 
 Before we download the data, let's have a look at it.
 
@@ -71,7 +71,7 @@ to get the heading from the json file: https://datahub.io/core/registry/r/0.json
 
 
 
-**Downloading the data**
+### Downloading the data
 
 We download using the -L flag. This flag means location. It recolate and redirects our request until we
 
@@ -87,7 +87,7 @@ OR if we want to get the metadata AND the data https://datahub.io/core/registry/
 
 
 
-**Saving the file locally**
+### Saving the file locally
 
 To save a copy of the data locally use the -O flag. 
 
