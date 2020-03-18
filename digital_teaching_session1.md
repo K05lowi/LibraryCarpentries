@@ -6,6 +6,7 @@
 **In this lesson we use the cURL command in Git to get data down from an online repository and save
 a copy on our computer**
 
+
 **Objectives**
 
 Using cURL in Git
@@ -14,11 +15,15 @@ Introduciton to Datahub.io
 
 Refreshing how to make a directory, save and rename a file in Git
 
+
+
 **What is cURL**
 
 cURL transfers data from one server to another, is used to test APIs and download files
 
 In Git, write curl --help to see all the options there are with cURL.
+
+
 
 **Finding data**
 
@@ -39,6 +44,7 @@ Go to the landing page for the registry data set. Scroll down to core-list and c
 Share url to the clipboard. https://datahub.io/core/registry/r/0.html
 
 
+
 **Back in Git**
 
 Make sure you are in the directory you want to store the downloaded data in.
@@ -48,6 +54,8 @@ Make a new folder mkdir curl
 Activate that folder cd curl
 
 Remember: to navigate the file structure use the commands pwd, cd, /c/, /p/
+
+
 
 **Previewing the data**
 
@@ -60,6 +68,7 @@ The script looks like this curl --head https://datahub.io/core/registry/r/0.csv
 Note that I have changed the file type from html to csv. You could also write the following
 
 to get the heading from the json file: https://datahub.io/core/registry/r/0.json
+
 
 
 **Downloading the data**
@@ -77,6 +86,7 @@ https://datahub.io/core/registry/r/0.json
 OR if we want to get the metadata AND the data https://datahub.io/core/registry/datapackage.json
 
 
+
 **Saving the file locally**
 
 To save a copy of the data locally use the -O flag. 
@@ -89,8 +99,11 @@ Let's change the name:
 
 mv 0.csv Registry.csv
 
-## Well done!! You have located data in an online repository, downloaded and saved a copy locally, in a file 
 
+
+## Well done!! 
+
+You have located data in an online repository, downloaded and saved a copy locally, in a file 
 structure where you can find it again.
 
 
