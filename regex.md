@@ -25,3 +25,7 @@ It is necessary to use an "if len" to set parameters \(tell the computer where t
 Make sure the parenthesis encaspulate the expression correctly
 
 2. A general exercise in looking for patterns in a string, that man later can use in the expressions.
+
+## Schesdule
+
+Skip Setup and description "Download files required for the lesson" when "This lesson does not require any special setup."
