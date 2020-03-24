@@ -1,4 +1,4 @@
-# Digitial Teaching sessions March 2020
+# Using cURL_exercise with Lorna
 
 
 ## Getting data with cURL
