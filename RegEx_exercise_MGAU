@@ -1,0 +1,20 @@
+Find DOI’er ved hjælp af regular expressions
+
+1. Åben https://regex101.com/ og https://librarycarpentry.org/lc-data-intro/reference
+
+2. I https://regex101.com/ TEST STRING indsæt følgende:
+  
+doi:10.1080/00365521.2019.1644368
+10.1111/1471-0528.15960
+https://doi.org/10.1089/dia.2019.2525.abstracts
+De Internationale Søvejsregler - med kommentarer 10. udg.
+
+3. Individuel øvelse: Lav et RegEx i https://regex101.com/ der finder tre DOI'er.
+Find hjælp i liste over kommandoer: https://librarycarpentry.org/lc-data-intro/reference
+Hint: alle DOI'er indeholder "10." men der kan være tekst før og/eller efter.
+
+4. Fælles diskussion af løsning(er). 
+
+Læringsmål
+1. Lav et RegEx til et konkret formål
+2. Samme opgave kan løses forskelligt - og det er ok
