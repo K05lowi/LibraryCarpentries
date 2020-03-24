@@ -61,5 +61,7 @@ We cover alot of ground in the introductory exercises (variables, values, loops)
 Perhaps more introduction to what is a variable and what is a value, what can they be used for, how are they remembered
 in the system? Just in the current session or also the next time we open Shell.
 
+When sharing screen, the last row (active row) of the command line is not necessarily visible to participants
+
 
 
