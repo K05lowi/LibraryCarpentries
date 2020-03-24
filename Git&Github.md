@@ -79,4 +79,10 @@ Og når jeg reviewer og merger, sker det også på webben.
 
 Workflow for review and merging (and tidying up) in Github
 
+Find bedre diagrammer til at illustrere processen "push, pull, fork"
+
+Vi svaner også rationalet for hvorfor GitHub er en del af LC ”grundpakken”.
+
+
+
 
