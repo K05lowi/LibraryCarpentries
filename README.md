@@ -5,3 +5,4 @@ We are currently working with:
 * Regex
 * CLI
 * Open Refine
+* SQL
