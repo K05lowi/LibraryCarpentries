@@ -20,7 +20,7 @@ will be tracked. You can reverse back to a version of any tracked file at any ti
 When you use Git you have a master copy of your project. It is best practice to make a copy of your project (a branch) and work on that branch, only adding merges (updates) to your master when you are sure about them. This is good practice - do not mess with your base data!! When you are finished working locally on your computer and want
 to share your work in a collaborative space outside of your own computer environment, such as an online remote repository like GitHub, you PUSH your files frolm your computer to the remote repository. On the remote repository you can accept the changes to the files and merge them into a project so everyone can see your work (or reject your work!)
 
-## The Concept of git
+## The Concept of Git
 In git your create, delete and add content to your files. When you are satisfied your files are ready to be saved, you ADD them to a staging area and then
 save them using the COMMIT command. When files have been commited, you can go back at anytime to see changes to the files and revert back to these changes.
 
@@ -114,7 +114,7 @@ Back to Git
 * touch ReadMe.md
 * Open the file, edit it and save it
 * git add ReadMe.md
-* git commit - '....'
+* git commit -m '....'
 * git push
 
 Back to GitHub
