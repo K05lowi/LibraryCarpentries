@@ -43,6 +43,35 @@ version of the project to work on.
 **git clone** Make a copy a remote repository 
 
 ## Workflow
+* Create a folder on the desktop
+* Right click and open in Git Bash
+* create 2 files: touch app.txt and touch index.html
+* Add content to one of the files
+* ls
+* git init
+* git config --global user.name
+* git config --global user.email
+* git config --list
+* git add filename (to add your files to the staging area)
+* git status
+* git rm --cached (remove files from staging area but not delete from folder)
+* git add *.txt (to add all text files, this can be done with all formats such as *.html)
+* git add . (to add all files)
+* edit a file and save
+* git add .
+* git status
+* git commit (fill out a commit message, use CTRL+X to quit the message if necessary)
+* git status
+* edit a file and save
+* git add .
+* git commit -m "write commit message"
+
+## Introduce version control
+* git log --oneline (this shows you the commit message ie the changes you have made and when. Note the commit ID)
+* git show filename (will show you the history of the document)
+* git checkout commitID filename (to revert to previous version of a document)
+* git status 
+
 
 
 ## Discussion points
