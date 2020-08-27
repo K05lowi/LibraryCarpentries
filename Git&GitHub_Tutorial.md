@@ -42,7 +42,7 @@ version of the project to work on.
 
 **git clone** Make a copy a remote repository 
 
-## Workflow
+## Basic workflow
 * Create a folder on the desktop
 * Right click and open in Git Bash
 * create 2 files: touch app.txt and touch index.html
@@ -72,6 +72,53 @@ version of the project to work on.
 * git checkout commitID filename (to revert to previous version of a document)
 * git status 
 
+## Introduce branches
+When working on your own branches are a great way to copy your master project files and work in these copies. This way your original data remains intact.
+When working in a team, branches are copies of the master project, where the team members can work undisturbed on their tasks and later merge their work into the
+master project.
+* git branch name-of-branch
+* git branch -D branchname (to delete)
+* git checkout name-of-branch (to switch to that branch and work on the "copied" files)
+* touch file.txt
+* write some content in the file, add to staging area and commit
+* git checkout master
+* git merge branchname (to merge your changes with the master project)
+* show in the path that the documents are now merged. Also in the git repository folder, look in the references subfolder to see the branches you have created.
+
+## Viewing what you have done
+To save the log of your actions and changes
+* git log --oneline --decorate > log.txt
+
+## Getting started on GitHub
+Log in to GitHub
+* create a new repository
+* Do NOT create a ReadMe file. By not creating a ReadMe file you get lots of useful information about how to clone and set the repository as the upstream remote
+* Look at all the other information on this page - you can choose licences and you can define which file formats you do NOT allow to be added to your repository.
+* Click "Create Repository" and on the page that opens, copy the commands that you'll need to push an existing repository from the command line (ie: from your computer to the remote repository on GitHub) 
+* example: 
+* git remote add origin https://github.com/K05lowi/app.git
+* git branch -M master
+* git push -u origin master
+
+Back in Git
+* git remote (to see the remote repositories you have already added to the project, if any)
+* git remote add origin https://... (the command copied form above, and possibly required to add your GitHub login information here)
+* git branch -M master
+* git push -u origin master
+* git push --set -upstream origin master (perhaps this is required, though just the first time your add the remote)
+
+Back to GitHub
+Reload the page and you'll see the changes already
+
+Back to Git
+* touch ReadMe.md
+* Open the file, edit it and save it
+* git add ReadMe.md
+* git commit - '....'
+* git push
+
+Back to GitHub
+Reload page to see changes.
 
 
 ## Discussion points
